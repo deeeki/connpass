@@ -18,7 +18,22 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Search events
+
+```ruby
+Connpass.event_search(keyword: 'Python')
+```
+
+* The response is [Hashie::Mash](https://github.com/intridea/hashie#mash) object.
+* You can use the same query parameters on the official reference.
+
+## API Reference
+
+- [APIリファレンス - connpass](http://connpass.com/about/api/)
+
+## Supported versions
+
+- Ruby 1.9.3 or higher
 
 ## Contributing
 

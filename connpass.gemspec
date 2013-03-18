@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["itzki.h@gmail.com"]
   spec.description   = %q{A Ruby wrapper for the connpass API}
   spec.summary       = %q{A Ruby wrapper for the connpass API}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/itzki/connpass"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
