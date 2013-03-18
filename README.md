@@ -1,6 +1,6 @@
 # Connpass
 
-A Ruby wrapper for the connpass API
+A Ruby wrapper for the [connpass](http://connpass.com/) API
 
 ## Installation
 
