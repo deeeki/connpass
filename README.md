@@ -21,13 +21,14 @@ Or install it yourself as:
 ### Search events
 
 ```ruby
-Connpass.event_search(keyword: 'Python')
+res = Connpass.event_search(keyword: 'Python')
+res.events.each{|e| puts e.title }
 ```
 
-* The response is [Hashie::Mash](https://github.com/intridea/hashie#mash) object.
-* You can use the same query parameters on the official reference.
+* The response is a [Hashie::Mash](https://github.com/intridea/hashie#mash) object (dot-accessible Hash).
+* You can use the same query parameters on the official API reference.
 
-## API Reference
+## API reference
 
 - [APIリファレンス - connpass](http://connpass.com/about/api/)
 
