@@ -1,4 +1,4 @@
-# Connpass
+# Connpass [![Build Status](https://travis-ci.org/itzki/connpass.png)](https://travis-ci.org/itzki/connpass)
 
 A Ruby wrapper for the [connpass](http://connpass.com/) API
 
