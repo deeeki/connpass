@@ -1,4 +1,4 @@
-# Connpass [![Build Status](https://travis-ci.org/itzki/connpass.png)](https://travis-ci.org/itzki/connpass)
+# Connpass [![Build Status](https://travis-ci.org/itzki/connpass.png)](https://travis-ci.org/itzki/connpass) [![Coverage Status](https://coveralls.io/repos/itzki/connpass/badge.png)](https://coveralls.io/r/itzki/connpass) [![Code Climate](https://codeclimate.com/github/itzki/connpass.png)](https://codeclimate.com/github/itzki/connpass) [![Dependency Status](https://gemnasium.com/itzki/connpass.png)](https://gemnasium.com/itzki/connpass)
 
 A Ruby wrapper for the [connpass](http://connpass.com/) API
 
