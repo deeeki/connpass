@@ -6,11 +6,11 @@ require 'connpass/version'
 Gem::Specification.new do |spec|
   spec.name          = "connpass"
   spec.version       = Connpass::VERSION
-  spec.authors       = ["itzki"]
-  spec.email         = ["itzki.h@gmail.com"]
+  spec.authors       = ["deeeki"]
+  spec.email         = ["deeeki@gmail.com"]
   spec.description   = %q{A Ruby wrapper for the connpass API}
   spec.summary       = %q{A Ruby wrapper for the connpass API}
-  spec.homepage      = "https://github.com/itzki/connpass"
+  spec.homepage      = "https://github.com/deeeki/connpass"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
