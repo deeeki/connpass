@@ -8,7 +8,7 @@ module Connpass
     def get path, options = {}
       url = "#{ENDPOINT}#{path}/"
       url = "#{url}?#{build_query(options)}" unless options.empty?
-      open(url).read
+      URI.open(url).read
     end
 
     def convert_response json_str
